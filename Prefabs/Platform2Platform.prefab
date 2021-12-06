@@ -112,6 +112,8 @@ MonoBehaviour:
   - {fileID: 3946324348573081360}
   - {fileID: 6286121271020146795}
   coin: {fileID: 8382108456512955793, guid: 93d0568496790804aa58c5d752e02df4, type: 3}
+  superCoin: {fileID: 3797389127099128351, guid: 07f4890ec8f6c7a4cbbfa7c69359f1d8,
+    type: 3}
 --- !u!1001 &2522299800219466015
 PrefabInstance:
   m_ObjectHideFlags: 0

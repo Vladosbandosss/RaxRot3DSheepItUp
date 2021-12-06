@@ -802,6 +802,66 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5749673731459920594, guid: b56a999e27d8c2d4eb3a2757beba924f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 600
+      objectReference: {fileID: 0}
+    - target: {fileID: 5749673731459920594, guid: b56a999e27d8c2d4eb3a2757beba924f,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 5749673731459920594, guid: b56a999e27d8c2d4eb3a2757beba924f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 5749673731459920594, guid: b56a999e27d8c2d4eb3a2757beba924f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5749673731459920685, guid: b56a999e27d8c2d4eb3a2757beba924f,
+        type: 3}
+      propertyPath: m_Text
+      value: x0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5749673731459920685, guid: b56a999e27d8c2d4eb3a2757beba924f,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5749673731459920685, guid: b56a999e27d8c2d4eb3a2757beba924f,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5749673731459920685, guid: b56a999e27d8c2d4eb3a2757beba924f,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5749673731459920685, guid: b56a999e27d8c2d4eb3a2757beba924f,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 130
+      objectReference: {fileID: 0}
+    - target: {fileID: 5749673731459920685, guid: b56a999e27d8c2d4eb3a2757beba924f,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5749673731459920685, guid: b56a999e27d8c2d4eb3a2757beba924f,
+        type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5749673732144202757, guid: b56a999e27d8c2d4eb3a2757beba924f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5749673732369422393, guid: b56a999e27d8c2d4eb3a2757beba924f,
         type: 3}
       propertyPath: m_Pivot.x

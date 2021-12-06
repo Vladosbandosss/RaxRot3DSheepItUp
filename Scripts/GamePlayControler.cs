@@ -38,6 +38,12 @@ public class GamePlayControler : MonoBehaviour
         scoreText.text = "x"+score;
     }
 
+    public void SuperIncrement()
+    {
+        score += 5;
+        scoreText.text = "x"+score;
+    }
+
     public void RestartGame()
     {
        

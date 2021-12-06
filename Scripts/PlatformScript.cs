@@ -10,7 +10,7 @@ public class PlatformScript : MonoBehaviour
     [SerializeField] private Transform[] spikes;
 
     [SerializeField] private GameObject coin;
-
+    [SerializeField] private GameObject superCoin;
     private bool fallDown;
     void Start()
     {
@@ -34,6 +34,14 @@ public class PlatformScript : MonoBehaviour
         c.transform.DOLocalMoveY(1f, 0);
     }
 
+    void AddSuperCoin()
+    {
+        GameObject cc = Instantiate(superCoin);
+        cc.transform.position = transform.position;
+        cc.transform.SetParent(transform);
+        cc.transform.DOLocalMoveY(1f, 0);
+    }
+
     void ActivatePlatform()
     {
         int chance = Random.Range(0, 100);
@@ -50,11 +58,12 @@ public class PlatformScript : MonoBehaviour
             }
             else if (type == 2)
             {
+                ActivateSpike();
                 fallDown = true;
             }
             else if (type == 3)
             {
-                
+                AddSuperCoin();
             }
             else if (type == 4)
             {
@@ -62,11 +71,11 @@ public class PlatformScript : MonoBehaviour
             }
             else if (type == 5)
             {
-                
+                ActivateSpike();
             }
             else if (type == 6)
             {
-                
+                ActivateSpike();
             }
             else if (type == 7)
             {

@@ -42,6 +42,14 @@ public class PlayerInteraction : MonoBehaviour
             GamePlayControler.instance.IncrementScore();
             
         }
+        if (other.tag == "SuperCoin")
+        {
+            
+            other.gameObject.SetActive(false);
+            SoundManger.instance.PickedUpCoin();
+            GamePlayControler.instance.SuperIncrement();
+            
+        }
 
         if (other.tag == "Spike")
         {
